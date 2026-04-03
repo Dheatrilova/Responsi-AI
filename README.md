@@ -1,1 +1,8 @@
 Setelah dilakukan analisis terhadap grafik awal, model menunjukkan gejala overfitting yang ditandai dengan tingginya akurasi pada data training namun tidak diikuti oleh peningkatan akurasi pada data validation. Untuk mengatasi hal tersebut, dilakukan beberapa optimasi seperti penambahan dropout, pengurangan jumlah epoch, serta penyesuaian learning rate dan pembagian data. Hasil optimasi menunjukkan bahwa selisih antara akurasi training dan validation menjadi lebih kecil dan stabil. Dengan demikian, model telah berhasil diperbaiki dan mencapai kondisi good fit, yaitu mampu melakukan generalisasi dengan baik terhadap data baru.
+
+Penjelasan Grafik sebelum : 
+Berdasarkan grafik, terlihat bahwa akurasi training meningkat secara signifikan hingga mendekati 100%, sedangkan akurasi validation cenderung lebih rendah dan tidak stabil. Terdapat selisih yang cukup besar antara akurasi training dan validation.
+Hal ini menunjukkan bahwa model mengalami overfitting, yaitu kondisi di mana model terlalu menghafal data training sehingga tidak mampu melakukan generalisasi dengan baik terhadap data baru.
+
+Penjelasan Grafik Sesudah :
+Setelah dilakukan analisis terhadap grafik awal, model menunjukkan gejala overfitting yang ditandai dengan tingginya akurasi pada data training namun tidak diikuti oleh peningkatan akurasi pada data validation. Untuk mengatasi hal tersebut, dilakukan beberapa optimasi seperti penambahan dropout, pengurangan jumlah epoch, serta penyesuaian learning rate dan pembagian data. Hasil optimasi menunjukkan bahwa selisih antara akurasi training dan validation menjadi lebih kecil dan stabil. Dengan demikian, model telah berhasil diperbaiki dan mencapai kondisi good fit, yaitu mampu melakukan generalisasi dengan baik terhadap data baru.
